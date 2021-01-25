@@ -36,4 +36,6 @@ git reflog
 
 ## 版本回退
 git reset --hard HEAD^ 回退到上一个版本
-git reset --hard 版本号
+git reset --hard 版本号 回退到指定版本
+注意吧当前代码先提交到本地仓库
+工作区的代码会自动变成回复的指定版本
