@@ -39,3 +39,20 @@ git reset --hard HEAD^ 回退到上一个版本
 git reset --hard 版本号 回退到指定版本
 注意吧当前代码先提交到本地仓库
 工作区的代码会自动变成回复的指定版本
+
+## 查看变动
+git diff 文件名
+会列出该文件前后的差异
+
+## 创建远程仓库
+进入github 官网
+
+
+## 将本地仓库与远程仓库关联
+git remote add origin https://github.com/winner8023/GP5.git
+git remote -v 查看本地仓库关联的远程仓库
+
+## 将本地仓库提交到远程仓库
+git push -u origin master 第一次提交远程
+git push 将本地仓库提交到远程仓库
+-u origin master 设置默认的  
